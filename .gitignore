@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# データベース
+*.db
+history.db
+
+# アップロードフォルダ
+uploads/*
+!uploads/.gitkeep
+
+# VSCode
+.vscode/
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# その他
+*.log
+*.pid
+*.seed
+*.pid.lock
